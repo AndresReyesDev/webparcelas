@@ -182,7 +182,7 @@ input, textarea, button {
     Template Default Fonts & Fonts Styles
  ---------------------------------------------- */
 body {
-  font-family: "GeneralSans", sans-serif;
+  font-family: 'Arimo', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -202,7 +202,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "GeneralSans", cursive;
+  font-family: 'Arimo', sans-serif;
   margin: 0px;
   margin-bottom: 15px;
   font-weight: 600;
@@ -1319,6 +1319,25 @@ p b {
   color: #73a448;
 }
 
+.fondo1 {
+  background-color: #7fb0d8 !important;
+}
+.fondo2 {
+  background-color: #9d52b5 !important;
+}
+.fondo3 {
+  background-color: #bb7a6d !important;
+}
+.fondo4 {
+  background-color: #343f86 !important;
+}
+.fondo5 {
+  background-color: #4a845b !important;
+}
+.fondo6 {
+  background-color: #eeb254 !important;
+}
+
 .checked-list.right li {
   padding-left: 0px;
   padding-right: 30px;
@@ -1352,7 +1371,7 @@ p b {
   position: absolute;
   left: 0;
   top: 0;
-  font-family: 'xmoze';
+  font-family: 'Arimo', sans-serif;
   content: "";
   color: #73a448;
 }
@@ -2475,13 +2494,13 @@ nav .breadcrumb li {
 }
 
 .theme-btn.red-color {
-  background-color: #F76525;
+  background-color: #6F9108;
   color: #fff;
-  border: 2px solid #F76525;
+  border: 2px solid #6F9108;
 }
 
 .theme-btn.red-color.minimal-btn {
-  color: #F76525 !important;
+  color: #6F9108 !important;
 }
 
 .theme-btn.red-color.minimal-btn:hover {
@@ -2648,7 +2667,7 @@ nav .breadcrumb li {
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
-  font-family: "GeneralSans", cursive;
+  font-family: 'Arimo', sans-serif;
   position: absolute;
   top: -3px;
   -webkit-transform: rotateY(-90deg);
@@ -3380,7 +3399,7 @@ header.header-1 .header-right-element .color-2:hover {
 
 .hero-2 .single-slide {
   padding-top: 100px;
-  background-color: #63a738;
+  background-color: #565E21;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -3422,7 +3441,7 @@ header.header-1 .header-right-element .color-2:hover {
 }
 
 .hero-2 .single-slide .hero-contents h1 {
-  font-size: 90px;
+  font-size: 70px;
   line-height: 80%;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -5791,7 +5810,7 @@ header.header-1 .header-right-element .color-2:hover {
   top: 75px;
   content: "";
   z-index: -1;
-  font-family: 'xmoze';
+  font-family: 'Arimo', sans-serif;
   font-size: 45px;
   font-weight: 400;
   -webkit-transform: translateX(-50%);
@@ -7186,5 +7205,9 @@ footer .footer-bottom-wrapper .footer-bottom-content .social-links a:first-child
 footer .footer-bottom-wrapper .footer-bottom-content .social-links a:hover {
   background-color: #1A1AFF;
   color: #fff !important;
+}
+
+.fondo-verde {
+ background-color: #585d2b;
 }
 /*# sourceMappingURL=style.css.map */
